@@ -51,7 +51,7 @@ nav a {
 main {
   position: relative;
   min-height: calc(100% - 156px);
-  background-image: url("background.jpg");
+  background-image: url("pictures source/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
