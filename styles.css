@@ -76,6 +76,37 @@ main::before {
   text-align: center;
 }
 
+.gallery-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.gallery-item .title {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+  mix-blend-mode: screen;
+}
+
+.gallery-item .description {
+  font-size: 14px;
+  color: #ff8a8a;
+  margin-top: 5px;
+  mix-blend-mode: screen;
+}
+
 h2 {
   color: #fff;
   font-size: 50px;
