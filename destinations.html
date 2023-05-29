@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tourism Website - Destinations</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .gallery-item {
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+    
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    
+        .gallery-item h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    
+        .gallery-item p {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-light">
+        <h1 class="text-center">GoTour</h1>
+    </header>
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container mt-4">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Arashiyama Bamboo Forest.jpg" alt="Arashiyama Bamboo Forest">
+                <h3 class="title">Arashiyama Bamboo Forest</h3>
+                <p class="description">Description 1</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="Fushimi Inari Shrine.jpg" alt="Fushimi Inari Shrine">
+                <h3 class="title">Fushimi Inari Shrine</h3>
+                <p class="description">Description 2</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="Nishiki Market.jpg" alt="Nishiki Market">
+                <h3 class="title">Nishiki Market</h3>
+                <p class="description">Description 2</p>
+            </div>
+    </main>
+
+    <footer class="bg-light mt-4">
+        <p class="text-center">&copy; 2023 Tourism Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
