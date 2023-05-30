@@ -76,34 +76,35 @@ main::before {
   text-align: center;
 }
 
-.gallery-item {
-  position: relative;
+.gallery {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  width: 30%;
+  padding: 10px;
   text-align: center;
-  margin: 20px;
 }
 
 .gallery-item img {
-  width: 100%;
-  height: auto;
-  max-height: 200px;
-  object-fit: cover;
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  filter: brightness(120%) contrast(130%);
 }
 
-.gallery-item .title {
-  font-size: 18px;
-  color: #ffffff;
+.gallery-item h3 {
   margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
   mix-blend-mode: screen;
 }
 
-.gallery-item .description {
+.gallery-item p {
+  margin-top: 5px;
   font-size: 14px;
   color: #ff8a8a;
-  margin-top: 5px;
   mix-blend-mode: screen;
 }
 
