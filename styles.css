@@ -94,6 +94,16 @@ main::before {
   filter: brightness(120%) contrast(130%);
 }
 
+.gallery-item #map {
+  width: 500px;
+  height: 350px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  mix-blend-mode: exclusion;
+  transform: rotate(5deg);
+  filter: brightness(90%) contrast(100%);
+}
+
 .gallery-item h3 {
   margin-top: 10px;
   font-size: 18px;
