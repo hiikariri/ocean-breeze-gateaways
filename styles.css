@@ -91,7 +91,7 @@ main::before {
   width: 400px;
   height: 250px;
   border-radius: 5px;
-  filter: brightness(120%) contrast(130%);
+  filter: brightness(100%) contrast(110%);
 }
 
 .gallery-item #map {
