@@ -7,14 +7,10 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: cursive, sans-serif;
 }
 
 /* Header styles */
-header {
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow at the bottom */
-}
 
 .logo {
   width: 30px;
@@ -41,11 +37,8 @@ h1 {
   top: 0;
   width: 100%;
   z-index: 100;
-}
-
-.transparent-header {
-  background-color: #fff;
-  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.3); /* Adjust the opacity as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow at the bottom */
 }
 
 /* Navigation styles */
@@ -75,13 +68,10 @@ h1 {
 
 .nav-item a {
   text-decoration: none;
-  color: #ffffff;
+  font-weight: bold;
+  color: #25858b;
 }
 
-.header-text {
-  margin: 0;
-  color: #fff;
-}
 /* Main content styles */
 main {
   position: relative;
@@ -91,15 +81,15 @@ main {
   background-size: cover;
 }
 
-main::before {
+/* main::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
-}
+  background-color: rgba(0, 0, 0, 0.6);
+} */
 
 .container {
   display: flex;
@@ -135,7 +125,7 @@ main::before {
   height: 350px;
   margin-bottom: 30px;
   border-radius: 5px;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: soft-light;
   transform: rotate(5deg);
   filter: brightness(90%) contrast(100%);
 }
@@ -150,21 +140,20 @@ main::before {
 .gallery-item p {
   margin-top: 5px;
   font-size: 14px;
-  color: #ff8a8a;
-  mix-blend-mode: screen;
+  color: #fff;
 }
 
 h2 {
   color: #fff;
   font-size: 50px;
-  mix-blend-mode: screen;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 p {
-  color: #ff8a8a;
+  color: #fff;
   margin-bottom: 20px;
-  mix-blend-mode: screen;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -186,5 +175,5 @@ footer {
 
 footer p {
   color: #020202;
-  mix-blend-mode: darken;
+  mix-blend-mode: none;
 }
