@@ -12,41 +12,76 @@ body {
 
 /* Header styles */
 header {
-  background-color: #ae1d1d;
-  text-align: center;
-  padding-bottom: 2px;
-  padding-top: 2px;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow at the bottom */
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 25px;
+  margin-right: 8px;
 }
 
 h1 {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 20px;
+  text-align: left;
+  margin: 17px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.fixed-top {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.transparent-header {
+  background-color: #fff;
+  opacity: 0.5;
 }
 
 /* Navigation styles */
-nav {
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
+.navbar {
+  flex: 1;
 }
 
-nav ul {
+.nav-list {
   display: flex;
-  justify-content: center;
   list-style: none;
+  margin: 0;
+  margin-top: 2px;
   padding: 0;
 }
 
-nav li {
-  margin: 0 10px;
+.nav-item {
+  margin-right: 50px;
 }
 
-nav a {
-  color: #fff;
-  font-size: 16px;
+.nav-item:first-child {
+  margin-left: 50px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
   text-decoration: none;
+  color: #ffffff;
 }
 
+.header-text {
+  margin: 0;
+  color: #fff;
+}
 /* Main content styles */
 main {
   position: relative;
@@ -72,6 +107,7 @@ main::before {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  padding-top: 150px;
   color: #fff;
   text-align: center;
 }
