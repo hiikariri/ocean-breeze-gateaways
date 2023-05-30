@@ -12,14 +12,14 @@ body {
 
 /* Header styles */
 header {
-  background-color: #ffffff;
+  background-color: #ae1d1d;
   text-align: center;
   padding-bottom: 2px;
   padding-top: 2px;
 }
 
 h1 {
-  color: #333;
+  color: #ffffff;
   font-size: 28px;
 }
 
@@ -50,7 +50,7 @@ nav a {
 /* Main content styles */
 main {
   position: relative;
-  min-height: calc(100% - 156px);
+  min-height: calc(100% - 300px);
   background-image: url("pictures source/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
