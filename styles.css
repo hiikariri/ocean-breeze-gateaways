@@ -79,29 +79,6 @@ body {
 /* Main content styles */
 main {
   position: relative;
-  min-height: 100vh;
-  background: linear-gradient(180deg, #34ece1 0%, rgba(40, 138, 152, 0) 98.96%);
-}
-
-.first-section {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  height: 700px; /* Adjust the height as needed */
-}
-
-.header-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.header-image img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
 }
 
 .container {
@@ -110,7 +87,7 @@ main {
   text-align: center;
 }
 
-.container h2 {
+/* .first-section h1 {
   position: absolute;
   width: 100%;
   top: 35%;
@@ -122,7 +99,7 @@ main {
   z-index: 1;
 }
 
-.container p {
+.first-section p {
   position: absolute;
   width: 100%;
   top: 60%;
@@ -131,6 +108,94 @@ main {
   font-size: 18px;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+} */
+
+.first-section {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 700px; /* Adjust the height as needed */
+}
+
+.first-section .header-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.first-section .header-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 5% 5%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  max-width: 1250px;
+  width: 100%;
+}
+
+.quote h1 {
+  font-size: 65px;
+}
+
+.quote p {
+  font-size: 18px;
+}
+
+.second-section {
+  position: relative;
+  top: -30px;
+  background: linear-gradient(180deg, #34ece1 0%, rgba(40, 138, 152, 0) 98.96%);
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
+
+.second-section .about-us-image {
+  margin-top: 50px;
+  flex: 0 0 auto;
+}
+
+.second-section .about-us-image img {
+  padding-left: 250px;
+  margin-right: 50px;
+}
+
+.second-section .about-us-description {
+  margin-right: 250px;
+  margin-top: 50px;
+}
+
+.about-us-description {
+  flex: 1;
+  display: flex;
+  align-items: first baseline;
+  flex-direction: column;
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-us-description .section-text h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.about-us-description .section-text p {
+  font-size: 18px;
+  color: #fff;
+  text-align: justify;
 }
 
 ul {
