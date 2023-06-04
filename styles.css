@@ -87,30 +87,6 @@ main {
   text-align: center;
 }
 
-/* .first-section h1 {
-  position: absolute;
-  width: 100%;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 65px;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.first-section p {
-  position: absolute;
-  width: 100%;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  margin: 10px;
-} */
-
 .first-section {
   margin: 0;
   padding: 0;
@@ -154,28 +130,30 @@ main {
   font-size: 18px;
 }
 
-.second-section {
+/* background style */
+.rest-section-bg {
   position: relative;
   top: -30px;
-  background: linear-gradient(180deg, #34ece1 0%, rgba(40, 138, 152, 0) 98.96%);
-  display: flex;
-  align-items: center;
+  background: url("pictures source/LANDING PAGE BACKGROUND.png");
   z-index: -1;
 }
 
-.second-section .about-us-image {
+.second-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-us-image {
   margin-top: 50px;
   flex: 0 0 auto;
+  position: relative;
 }
 
-.second-section .about-us-image img {
+.about-us-image img {
   padding-left: 250px;
   margin-right: 50px;
-}
-
-.second-section .about-us-description {
-  margin-right: 250px;
-  margin-top: 50px;
 }
 
 .about-us-description {
@@ -185,6 +163,8 @@ main {
   flex-direction: column;
   text-align: justify;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-right: 250px;
+  margin-top: 50px;
 }
 
 .about-us-description .section-text h1 {
@@ -196,6 +176,27 @@ main {
   font-size: 18px;
   color: #fff;
   text-align: justify;
+}
+
+/* Third section styles */
+.third-section {
+  margin-top: 50px;
+  clear: both;
+}
+
+.section-assets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px; /* Adjust the spacing */
+}
+
+.section-assets img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Adjust the spacing */
 }
 
 ul {
