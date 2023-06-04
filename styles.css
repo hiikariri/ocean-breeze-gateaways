@@ -271,6 +271,105 @@ main {
   cursor: pointer;
 }
 
+.pin-button2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(415%, -95%);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.pin-button3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, 110%);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.pin-button4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-160%, 100%);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.pin-button5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-350%, 50%);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.fourth-section {
+  margin-top: 120px;
+  position: relative;
+  height: 800px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fourth-section .image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.fourth-section .image-wrapper img {
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+.fourth-section .image-wrapper .left-image {
+  margin-right: 50px;
+}
+
+.fourth-section .image-wrapper .right-image {
+  margin-left: 50px;
+}
+
+.fourth-section .section-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and crop the image if needed */
+}
+
+.fourth-section .track-bar {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fourth-section .section-text h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -500%);
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+}
+
+.fourth-section .section-text p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 700%);
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+
 ul {
   color: #ff8a8a;
   padding: 0;
